@@ -1,0 +1,185 @@
+#body{
+	color: #fff;
+	padding: 0 0 0 0;
+	background-color: #000;
+	font-family: fantasy;
+	align-items: center;
+	font-size: 2vw;
+}
+#background{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 0;
+	margin: -1.5vh 0 0 -1vw;
+	filter: blur(2px);
+	transition-property: filter;
+	transition-duration: 0.1s;
+}
+#blurred{
+	transition-property: filter;
+	transition-duration: 0.1s;
+}
+#gname{
+	position: fixed;
+	text-align: center;
+	width: 100vw;
+	font-size: 8vw;
+	color: #fff;
+}
+#stbtn{
+	color: #fff;
+	font-family: fantasy;
+	font-size: 5vw;
+	background-color: #5555;
+	z-index: 9;
+	border-radius: 100vw;
+	border:2px dotted #fff;
+	text-align: center;
+	width: 16vw;
+	height: 16vw;
+	margin: 18vw 42vw;
+	cursor: pointer;
+	position: fixed;
+	transform: rotate(0deg);
+	transition-property: transform width height;
+	transition-duration: 0.4s;
+	transition-timing-function: linear;
+}
+#stbtn:hover{
+	transform: rotate(360deg);
+	margin: 14vw 38vw;
+	width: 24vw;
+	height: 24vw;
+	font-size: 8vw
+}
+#hidden{
+	text-align: center;
+	transition-property: display;
+	transition-duration: 2s;
+}
+table{
+	font-size: 8vw;
+}
+td{
+	border: none;
+	border-radius: 1.5vw;
+	background-color: #5555;
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: ;
+}
+
+#main{
+	width: 40vw;
+	height:40vw;
+	position: fixed;
+	padding: 0 0 0 17.5vw;
+	z-index: 3;
+}
+#s1,#s2,#s3,#s4,#s5,#s6,#s7,#s8,#s9{
+	border: none;
+	cursor: pointer;
+}
+
+#buttons{
+	padding: 3.5vw 0vw 0vh 52.5vw ;
+	position: fixed;
+	z-index: 2;
+}
+#buttons button{
+	color: white;
+	width:20vw;
+	font-size: 2vw;
+	border-radius: 2vw;
+	border-style: dotted;
+	/*border-top: none;*/
+	background-color: #5555; 
+	border-color: white;
+	cursor: pointer;
+	margin-top: 2vw;
+	margin-left: 3vw;
+	font-family: fantasy;
+}
+#gmpl{
+	cursor: default;
+}
+#whostart{
+	width: 20vw;
+	height: 10vw;
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+   	background-color: #5555;
+    box-sizing: border-box;
+    margin: 2vw 0 0vw 3vw;
+    padding: 0px 0px;
+	border:2px dotted white;
+	border-radius: 2vw;
+	/*position: fixed;*/
+	/*left: 50%;*/
+}
+
+#whostart button{
+	margin: 0.5vw;
+	font-size: 2vw;
+	background-color: #5555;
+	display: inline-block;
+	border-radius: 2vw;
+	border:2px dotted white;
+	text-align: center;
+	width: 18vw;
+	cursor: pointer;
+}
+#whostarta{
+	color: white;
+	width:100vw;
+	font-size: 2vw;
+	border:none;
+	background-color: #5555; 
+	cursor: pointer;
+	font-family: fantasy;
+	height: 90%;
+}
+
+#ex , #oh{
+	height: 39.5%;
+}
+
+#score{
+	font-size: 8vw;
+	position: fixed;
+	padding: 0.0vw 0 0 25vw; 
+	column-width: 20vw;
+}
+#score tr{
+}
+.nobg{
+	background-color: transparent;
+}
+.scbtn{
+	color: white;
+	font-size: 2vw;
+	border-radius: 2vw;
+	border-style: dotted;
+	/*border-top: none;*/
+	background-color: #3335; 
+	border-color: white;
+	cursor: pointer;
+	font-family: fantasy;
+	width: 14vw; 
+	margin: 0vw; 
+
+}
+#names{
+	font-size: 3vw;
+}
