@@ -39,7 +39,7 @@ window.onload = function(){
 	var stat = '<label for="gmpl">Status:</br></label>';
 	
 	hidden.style.display='none';
-	
+	bg.src="halloween.jpg";
 	stbtn.onclick = function(){
 		hidden.style.display='';
 		// body.style.filter="blur(2vw)";
